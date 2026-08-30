@@ -15,3 +15,11 @@ http.createServer([options][, requestListener])に関するリファレンス
 https://nodejs.org/api/http.html#httpcreateserveroptions-requestlistener
 
 foo(a[, b[, c]])とあれば　a必須　bオプション　cオプション　という認識で良い
+
+
+
+
+
+reqはrequst(HTTPリクエスト)  resはresponse(HTTPレスポンス)
+ブラウザからのリクエストを可変なものに変更した。それを読み取り　node.js側からレスポンスとして返すものも変更できるようになった。
+ブラウザからのリクエストを可変なものに変更した。それを読み取り、その内容に応じて返すHTTPレスポンスんを変更できる
